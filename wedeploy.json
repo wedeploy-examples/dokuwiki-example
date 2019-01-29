@@ -1,0 +1,10 @@
+{
+	"id": "dokuwiki",
+	"image": "bitnami/dokuwiki:0.20180422.201901061035-r22",
+	"volumes": {
+		"data": "/bitnami"
+	},
+	"healthCheck": {
+		"url": "localhost"
+	}
+}
